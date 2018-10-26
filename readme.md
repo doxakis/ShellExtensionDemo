@@ -18,10 +18,10 @@ I'm following this tuto: https://www.codeproject.com/Articles/512956/NET-Shell-E
 - For an installation not using the GAC, from the bin\Debug or bin\Release folder on the command line (with admin right):
 
 Windows 64 bit:
-`C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe /codebase CountLinesExtension.dll`
+`C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe /codebase CountLinesExtension.dll`
 
 Windows 32 bit:
-`C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe /codebase CountLinesExtension.dll`
+`C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe /codebase CountLinesExtension.dll`
 
 - Open the file explorer and right click on a text file:
 
@@ -32,10 +32,10 @@ Windows 32 bit:
 # Uninstallation
 
 Windows 64 bit:
-`C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe /u CountLinesExtension.dll`
+`C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe /u CountLinesExtension.dll`
 
 Windows 32 bit:
-`C:\Windows\Microsoft.NET\Framework64\v4.0.30319\RegAsm.exe /u CountLinesExtension.dll`
+`C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe /u CountLinesExtension.dll`
 
 # FAQ
 
